@@ -1,0 +1,113 @@
+body {
+    background-image: url(https://c.saavncdn.com/132/Geet-Hindi-1944-20200901173930-500x500.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: white;
+}
+
+.login-container {
+    margin-top: 3cm;
+    margin-left: 11cm;
+    align-items: center;
+    width: 10cm;
+    height: 8cm;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h1 {
+    color: #d95d5d;
+    margin-bottom: 20px;
+}
+
+.login-container input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d95d5d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #d95d5d;
+}
+
+.nav {
+    border: 2px solid #d95d5d;
+    background-color: #eba6a6;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.nav h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.playlists {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.playlist-item {
+    text-align: center;
+    max-width: 150px;
+}
+
+.playlist-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.playlist-item h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: white;
+}
+
+.music-player {
+    width: 100%;
+    background-color: #d95d5d;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player-controls button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.current-track {
+    font-size: 18px;
+} 
+
